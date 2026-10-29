@@ -1,0 +1,7 @@
+{
+  "name": "Forex Inside Day Tracker",
+  "description": "Professional Forex market scanner identifying inside day candlestick compressions (green, red, neutral), potential breakout push notifications, historical charts with technical overlays, custom watchlists, and offline caching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

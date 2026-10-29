@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#0B0F17"/>
+  <rect x="24" y="24" width="464" height="464" rx="88" stroke="#1E293B" stroke-width="4"/>
+  
+  <!-- Grid Lines -->
+  <line x1="80" y1="160" x2="432" y2="160" stroke="#1E293B" stroke-dasharray="6 6" stroke-width="2"/>
+  <line x1="80" y1="256" x2="432" y2="256" stroke="#1E293B" stroke-dasharray="6 6" stroke-width="2"/>
+  <line x1="80" y1="352" x2="432" y2="352" stroke="#1E293B" stroke-dasharray="6 6" stroke-width="2"/>
+
+  <!-- Mother Bar (Outer Candle - Blue/Slate) -->
+  <line x1="184" y1="80" x2="184" y2="432" stroke="#38BDF8" stroke-width="6" stroke-linecap="round"/>
+  <rect x="156" y="140" width="56" height="232" rx="8" fill="#0284C7"/>
+
+  <!-- Inside Day Candle (Inner Candle - Green Bullish Inside Bar) -->
+  <!-- Range completely inside mother bar: high 170, low 340 -->
+  <line x1="328" y1="170" x2="328" y2="342" stroke="#10B981" stroke-width="6" stroke-linecap="round"/>
+  <rect x="300" y="200" width="56" height="112" rx="8" fill="#10B981"/>
+
+  <!-- Breakout Projection Bounds -->
+  <line x1="184" y1="80" x2="400" y2="80" stroke="#38BDF8" stroke-width="3" stroke-dasharray="4 4" opacity="0.6"/>
+  <line x1="184" y1="432" x2="400" y2="432" stroke="#EF4444" stroke-width="3" stroke-dasharray="4 4" opacity="0.6"/>
+  <circle cx="328" cy="80" r="6" fill="#38BDF8"/>
+  <circle cx="328" cy="432" r="6" fill="#EF4444"/>
+</svg>
