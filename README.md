@@ -1,0 +1,1 @@
+Professional Forex market scanner identifying inside day candlestick compressions (green, red, neutral), potential breakout push notifications, historical charts with technical overlays, custom watchlists, and offline caching.
